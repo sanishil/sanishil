@@ -6,6 +6,8 @@
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=900&color=C9D1D9&center=true&vCenter=true&width=700&height=45&lines=Building+REST+APIs+that+scale;Spring+Boot+%C2%B7+Laravel+%C2%B7+Redis+%C2%B7+MySQL;Learning+System+Design+every+day" alt="Typing SVG"/>
 </a>
 
+<sub>💼 Associate Software Development Engineer at <b>iLogitron Technologies Private Limited</b></sub>
+
 <br/>
 
 <img src="https://img.shields.io/badge/Spring_Boot-2E7D32?style=flat-square&logo=springboot&logoColor=white"/>
@@ -31,6 +33,7 @@
 ```yaml
 name:    Sani Shil
 role:    Associate Software Development Engineer
+company: iLogitron Technologies Private Limited
 main:    Java + Spring Boot
 also:    Laravel / PHP
 focus:   REST APIs · Caching · System Design
