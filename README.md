@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=260&section=header&text=Sani%20Shil&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Associate%20Software%20Development%20Engineer%20%7C%20Backend%20Developer&descSize=20&descAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=260&section=header&text=Sani%20Shil&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Spring%20Boot%20Developer%20%7C%20Associate%20Software%20Development%20Engineer&descSize=20&descAlignY=58" width="100%"/>
 
 <a href="https://github.com/sanishil">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=00F5A0&center=true&vCenter=true&width=750&height=50&lines=%E2%98%95+Spring+Boot+Developer;%F0%9F%90%98+Laravel+%2F+PHP+Developer;%F0%9F%94%97+REST+API+Designer;%E2%9A%A1+Redis+%7C+MySQL+%7C+Linux;%F0%9F%9A%80+Learning+System+Design" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=00F5A0&center=true&vCenter=true&width=750&height=50&lines=%E2%98%95+Spring+Boot+Developer;%E2%98%95+Java+%2B+Spring+Boot+REST+APIs;%F0%9F%90%98+Also+Laravel+%2F+PHP;%F0%9F%94%97+REST+API+Designer;%E2%9A%A1+Redis+%7C+MySQL+%7C+Linux;%F0%9F%9A%80+Learning+System+Design" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
@@ -14,6 +14,8 @@
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 
 <br/>
+
+<h3>☕ Spring Boot Developer &nbsp;•&nbsp; 🐘 also Laravel</h3>
 
 <img src="https://komarev.com/ghpvc/?username=sanishil&label=Profile%20Views&color=00f5a0&style=for-the-badge"/>
 <img src="https://img.shields.io/github/followers/sanishil?style=for-the-badge&logo=github&color=8a2be2"/>
@@ -29,8 +31,10 @@
 public class SaniShil {
 
     String role      = "Associate Software Development Engineer";
+    String primary   = "Spring Boot";      // main backend framework
+    String secondary = "Laravel";          // also comfortable with
     String focus     = "Backend Development & REST APIs";
-    String[] stack   = {"Spring Boot", "Laravel", "Redis", "MySQL"};
+    String[] stack   = {"Spring Boot", "Redis", "MySQL", "Laravel"};
     String[] tools   = {"Linux", "Git", "GitHub", "Postman"};
     String learning  = "Backend Engineering & System Design";
     String motto     = "Code • Build • Learn • Repeat";
@@ -101,7 +105,7 @@ flowchart TD
 <tr>
 <td width="33%" valign="top">
 
-#### ☕ Spring Boot
+#### ☕ Spring Boot &nbsp;⭐ *Primary*
 ✅ REST API development<br/>
 ✅ Spring Data JPA<br/>
 ✅ CRUD operations<br/>
@@ -113,7 +117,7 @@ flowchart TD
 </td>
 <td width="33%" valign="top">
 
-#### 🐘 Laravel
+#### 🐘 Laravel &nbsp;*Also*
 ✅ REST API development<br/>
 ✅ MVC architecture<br/>
 ✅ Eloquent ORM<br/>
@@ -193,7 +197,7 @@ flowchart LR
 
 ## 🌱 &nbsp;Currently
 
-- 🔭 Building & improving REST APIs with **Spring Boot** and **Laravel**
+- 🔭 Building & improving REST APIs with **Spring Boot** (main) and **Laravel**
 - ⚡ Optimising performance with **Redis** caching
 - 📚 Deep-diving into **Backend Engineering & System Design**
 - 🤝 Open to collaborating on backend projects
