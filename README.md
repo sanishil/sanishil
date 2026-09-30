@@ -49,35 +49,109 @@ mood:    Code • Build • Learn • Repeat
 
 ## `~/skills`
 
-| ☕ Spring Boot *(primary)* | 🐘 Laravel | ⚡ Redis | 🗄️ MySQL |
-|:--|:--|:--|:--|
-| REST APIs | REST APIs | Caching | Persistence |
-| Spring Data JPA | MVC + Eloquent | Session storage | Spring integration |
-| Validation & exceptions | Middleware | Key-value access | Laravel integration |
-| Auth & authorization | Authentication | Reducing DB load | |
+<table width="100%">
+<tr>
+<th width="25%" align="left">☕ Spring Boot <i>(primary)</i></th>
+<th width="25%" align="left">🐘 Laravel</th>
+<th width="25%" align="left">⚡ Redis</th>
+<th width="25%" align="left">🗄️ MySQL</th>
+</tr>
+<tr><td>REST APIs</td><td>REST APIs</td><td>Caching</td><td>Persistence</td></tr>
+<tr><td>Spring Data JPA</td><td>MVC + Eloquent</td><td>Session storage</td><td>Spring integration</td></tr>
+<tr><td>Validation &amp; exceptions</td><td>Middleware</td><td>Key-value access</td><td>Laravel integration</td></tr>
+<tr><td>Auth &amp; authorization</td><td>Authentication</td><td>Reducing DB load</td><td>Query &amp; schema design</td></tr>
+</table>
 
-## `~/featured-project`
+## `~/architecture`
 
-<div align="center">
+<sub>How each stack in my toolbox flows, end to end.</sub>
 
-### 💳 Universal Billing System
-*Create bills · Process payments · Share permanent bill-view links with customers*
-
-</div>
+### ☕ Spring Boot
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#ffffff','primaryBorderColor':'#00F5A0','lineColor':'#00F5A0','secondaryColor':'#161b22','tertiaryColor':'#0d1117','fontFamily':'monospace'}}}%%
 flowchart LR
-    A[Angular<br/>Frontend] --> B[Spring Boot<br/>REST API]
-    B --> C[(Redis<br/>Cache)]
-    B --> D[(MySQL<br/>Database)]
-    B --> E[Permanent Bill<br/>View Link]
-    E --> F[Customer]
-    style A fill:#DD0031,color:#fff,stroke:none
-    style B fill:#6DB33F,color:#fff,stroke:none
-    style C fill:#DC382D,color:#fff,stroke:none
-    style D fill:#4479A1,color:#fff,stroke:none
-    style E fill:#8a2be2,color:#fff,stroke:none
-    style F fill:#00F5A0,color:#0d1117,stroke:none
+    C(["Client"]) --> F["Security Filter<br/>JWT / Auth"]
+    F --> CT["Controller<br/>RestController"]
+    CT --> V{{"Validation<br/>Valid"}}
+    V --> S["Service<br/>Business Logic"]
+    S --> R["Repository<br/>Spring Data JPA"]
+    R --> DB[("MySQL")]
+    S -.-> RD[("Redis Cache")]
+    CT -.-> EX["Global Exception<br/>Handler"]
+    classDef spring stroke:#6DB33F,stroke-width:2px
+    classDef data stroke:#4479A1,stroke-width:2px
+    class F,CT,V,S,R,EX spring
+    class DB,RD data
+```
+
+### 🐘 Laravel
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#ffffff','primaryBorderColor':'#00F5A0','lineColor':'#00F5A0','secondaryColor':'#161b22','tertiaryColor':'#0d1117','fontFamily':'monospace'}}}%%
+flowchart LR
+    C(["Client"]) --> RT["Routes<br/>api.php / web.php"]
+    RT --> MW["Middleware<br/>Auth / Throttle"]
+    MW --> FR{{"Form Request<br/>Validation"}}
+    FR --> CT["Controller"]
+    CT --> M["Eloquent Model"]
+    M --> DB[("MySQL")]
+    CT -.-> RD[("Redis<br/>Cache / Session / Queue")]
+    CT --> RES["API Resource<br/>JSON Response"]
+    classDef lv stroke:#FF2D20,stroke-width:2px
+    classDef data stroke:#4479A1,stroke-width:2px
+    class RT,MW,FR,CT,M,RES lv
+    class DB,RD data
+```
+
+### 🅰️ Angular
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#ffffff','primaryBorderColor':'#00F5A0','lineColor':'#00F5A0','secondaryColor':'#161b22','tertiaryColor':'#0d1117','fontFamily':'monospace'}}}%%
+flowchart LR
+    U(["User"]) --> CMP["Component<br/>Template + Logic"]
+    RTR["Router<br/>+ Guards"] --> CMP
+    CMP --> SVC["Service<br/>Injectable"]
+    SVC --> HC["HttpClient<br/>+ Interceptors"]
+    HC --> API(["REST API"])
+    API --> HC
+    SVC -.-> RX["RxJS<br/>Observables"]
+    RX -.-> CMP
+    classDef ng stroke:#DD0031,stroke-width:2px
+    class CMP,RTR,SVC,HC,RX ng
+```
+
+### 🐘 PHP
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#ffffff','primaryBorderColor':'#00F5A0','lineColor':'#00F5A0','secondaryColor':'#161b22','tertiaryColor':'#0d1117','fontFamily':'monospace'}}}%%
+flowchart LR
+    C(["Browser"]) --> W["Web Server<br/>Apache / Nginx"]
+    W --> I["index.php<br/>Front Controller"]
+    I --> RT["Router"]
+    RT --> CT["Controller"]
+    CT --> M["Model<br/>PDO / MySQLi"]
+    M --> DB[("MySQL")]
+    CT --> VW["View / JSON"]
+    VW --> C
+    classDef php stroke:#777BB4,stroke-width:2px
+    classDef data stroke:#4479A1,stroke-width:2px
+    class W,I,RT,CT,M,VW php
+    class DB data
+```
+
+### 🐍 Python
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#ffffff','primaryBorderColor':'#00F5A0','lineColor':'#00F5A0','secondaryColor':'#161b22','tertiaryColor':'#0d1117','fontFamily':'monospace'}}}%%
+flowchart LR
+    IN(["Input<br/>Files / API / CLI"]) --> MAIN["Main Script"]
+    MAIN --> MOD["Modules<br/>Functions / Classes"]
+    MOD --> LIB["Libraries<br/>requests / pandas"]
+    LIB --> PR["Processing<br/>Logic / Automation"]
+    PR --> OUT(["Output<br/>Report / DB / Console"])
+    classDef py stroke:#3776AB,stroke-width:2px
+    class MAIN,MOD,LIB,PR py
 ```
 
 ## `~/stats`
