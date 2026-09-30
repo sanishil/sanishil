@@ -1,166 +1,215 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6DB33F,100:1a1b27&height=200&section=header&text=Sani%20Shil&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%7C%20Spring%20Boot%20%26%20Laravel&descSize=18&descAlignY=60" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=260&section=header&text=Sani%20Shil&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Associate%20Software%20Development%20Engineer%20%7C%20Backend%20Developer&descSize=20&descAlignY=58" width="100%"/>
 
 <a href="https://github.com/sanishil">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=6DB33F&center=true&vCenter=true&width=650&lines=Building+scalable+REST+APIs;Spring+Boot+%7C+Laravel+%7C+Redis+%7C+MySQL;Learning+System+Design+every+day" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=00F5A0&center=true&vCenter=true&width=750&height=50&lines=%E2%98%95+Spring+Boot+Developer;%F0%9F%90%98+Laravel+%2F+PHP+Developer;%F0%9F%94%97+REST+API+Designer;%E2%9A%A1+Redis+%7C+MySQL+%7C+Linux;%F0%9F%9A%80+Learning+System+Design" alt="Typing SVG"/>
 </a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=sanishil&label=Profile%20Views&color=6DB33F&style=for-the-badge)
-![Followers](https://img.shields.io/github/followers/sanishil?style=for-the-badge&logo=github&color=181717)
+<img src="https://komarev.com/ghpvc/?username=sanishil&label=Profile%20Views&color=00f5a0&style=for-the-badge"/>
+<img src="https://img.shields.io/github/followers/sanishil?style=for-the-badge&logo=github&color=8a2be2"/>
+<img src="https://img.shields.io/github/stars/sanishil?style=for-the-badge&logo=github&color=ff9800"/>
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 👨‍💻 About Me
+## 👋 &nbsp;Hey, I'm Sani!
 
-I'm an **Associate Software Development Engineer** who enjoys building fast, clean and reliable backend systems.
+```java
+public class SaniShil {
 
-- ☕ Backend development with **Spring Boot**
-- 🐘 Backend development with **Laravel / PHP**
-- 🔗 Designing and building **REST APIs**
-- ⚡ Using **Redis** to cut database load and speed up responses
-- 🗄️ Data modelling and queries with **MySQL**
-- 🐧 Comfortable with **Linux** and **Git**
-- 🌱 Currently levelling up in **Backend Engineering & System Design**
+    String role      = "Associate Software Development Engineer";
+    String focus     = "Backend Development & REST APIs";
+    String[] stack   = {"Spring Boot", "Laravel", "Redis", "MySQL"};
+    String[] tools   = {"Linux", "Git", "GitHub", "Postman"};
+    String learning  = "Backend Engineering & System Design";
+    String motto     = "Code • Build • Learn • Repeat";
 
----
-
-## 🛠️ Tech Stack
+    public void work() {
+        while (true) {
+            buildRestApis();
+            cacheWithRedis();
+            learnSystemDesign();
+        }
+    }
+}
+```
 
 <div align="center">
 
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=java,php,python,cpp" />
-
-**Backend & Databases**
-
-<img src="https://skillicons.dev/icons?i=spring,laravel,mysql,redis" />
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=angular,html,css,bootstrap" />
-
-**Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,linux,postman" />
+| 💼 Role | ☕ Java Side | 🐘 PHP Side | ⚡ Performance |
+|:---:|:---:|:---:|:---:|
+| Associate SDE | **Spring Boot** + JPA | **Laravel** + Eloquent | **Redis** caching |
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🚀 Backend Skills
+## 🛠️ &nbsp;Tech Arsenal
+
+<div align="center">
+
+### 🧠 Languages
+<img src="https://skillicons.dev/icons?i=java,php,python,cpp&theme=dark" />
+
+### ⚙️ Backend Frameworks
+<img src="https://skillicons.dev/icons?i=spring,laravel&theme=dark" />
+
+### 🗄️ Database & Cache
+<img src="https://skillicons.dev/icons?i=mysql,redis&theme=dark" />
+
+### 🎨 Frontend
+<img src="https://skillicons.dev/icons?i=angular,html,css,bootstrap&theme=dark" />
+
+### 🧰 Tools
+<img src="https://skillicons.dev/icons?i=git,github,linux,postman&theme=dark" />
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 🚀 &nbsp;Backend Skills
 
 ```mermaid
 flowchart TD
-    A[Backend Development] --> B[Spring Boot]
-    A --> C[Laravel]
-    B --> B1[REST APIs + Spring Data JPA]
-    C --> C1[REST APIs + Eloquent ORM]
-    B1 --> D[(MySQL)]
+    A(["🚀 Backend Development"]) --> B["☕ Spring Boot"]
+    A --> C["🐘 Laravel"]
+    B --> B1["REST APIs → Spring Data JPA"]
+    C --> C1["REST APIs → Eloquent ORM"]
+    B1 --> D[("🗄️ MySQL<br/>Persistence")]
     C1 --> D
-    B1 --> E[(Redis Cache)]
+    B1 --> E[("⚡ Redis<br/>Caching")]
     C1 --> E
+    style A fill:#6DB33F,color:#fff,stroke:#fff
+    style B fill:#6DB33F,color:#fff
+    style C fill:#FF2D20,color:#fff
+    style D fill:#4479A1,color:#fff
+    style E fill:#DC382D,color:#fff
 ```
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### 🔹 Spring Boot
-- REST API development
-- Spring Data JPA
-- CRUD operations
-- Request validation
-- Exception handling
-- Authentication & authorization
+#### ☕ Spring Boot
+✅ REST API development<br/>
+✅ Spring Data JPA<br/>
+✅ CRUD operations<br/>
+✅ Request validation<br/>
+✅ Exception handling<br/>
+✅ Authentication & authorization<br/>
+✅ Database integration
 
 </td>
 <td width="33%" valign="top">
 
-### 🔹 Laravel
-- REST API development
-- MVC architecture
-- Eloquent ORM
-- Authentication
-- Middleware
-- Request validation
+#### 🐘 Laravel
+✅ REST API development<br/>
+✅ MVC architecture<br/>
+✅ Eloquent ORM<br/>
+✅ Authentication<br/>
+✅ Middleware<br/>
+✅ Request validation<br/>
+✅ MySQL integration
 
 </td>
 <td width="33%" valign="top">
 
-### 🔹 Redis
-- Application caching
-- Session storage
-- Fast key-value access
-- Reducing database load
+#### ⚡ Redis
+✅ Application caching<br/>
+✅ Session storage<br/>
+✅ Fast key-value access<br/>
+✅ Reducing database load
 
 </td>
 </tr>
 </table>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📌 Featured Project
-
-### 💳 Universal Billing System
-
-> A full-stack billing application for creating bills, processing payments and giving customers permanent bill-view links.
-
-| | |
-|---|---|
-| **Backend** | Spring Boot |
-| **API** | REST |
-| **Database** | MySQL |
-| **Caching** | Redis |
-| **Frontend** | Angular |
-
-```mermaid
-flowchart LR
-    U[Angular UI] -->|REST| S[Spring Boot API]
-    S --> R[(Redis)]
-    S --> M[(MySQL)]
-```
-
-<a href="https://github.com/sanishil?tab=repositories">
-<img src="https://img.shields.io/badge/View%20Repositories-6DB33F?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
----
-
-## 📊 GitHub Stats
+## 📌 &nbsp;Featured Project
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=sanishil&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanishil&layout=compact&theme=tokyonight&hide_border=true"/>
+# 💳 Universal Billing System
 
-<img src="https://streak-stats.demolab.com?user=sanishil&theme=tokyonight&hide_border=true"/>
+*Create bills • Process payments • Share permanent bill-view links with customers*
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sanishil&theme=tokyo-night&hide_border=true" width="100%"/>
+<img src="https://img.shields.io/badge/Backend-Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/API-REST-02569B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cache-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/Frontend-Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
 
 </div>
 
----
+```mermaid
+flowchart LR
+    U["🖥️ Angular Frontend"] -->|REST API| S["☕ Spring Boot Backend"]
+    S --> R[("⚡ Redis")]
+    S --> M[("🗄️ MySQL")]
+    S -.->|permanent link| C["👤 Customer Bill View"]
+    style U fill:#DD0031,color:#fff
+    style S fill:#6DB33F,color:#fff
+    style R fill:#DC382D,color:#fff
+    style M fill:#4479A1,color:#fff
+    style C fill:#8a2be2,color:#fff
+```
 
-## 📫 Connect With Me
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 📊 &nbsp;GitHub Stats
 
 <div align="center">
 
-<a href="https://github.com/sanishil"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://linkedin.com/in/sanishil"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://sanishil.site.je"><img src="https://img.shields.io/badge/Portfolio-6DB33F?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
+<img height="185" src="https://github-readme-stats.vercel.app/api?username=sanishil&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0d1117"/>
+<img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanishil&layout=compact&theme=radical&hide_border=true&bg_color=0d1117"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=sanishil&theme=radical&hide_border=true&background=0d1117"/>
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=sanishil&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=7"/>
+
+</div>
+
+## 📈 &nbsp;Contribution Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sanishil&theme=react-dark&hide_border=true&area=true&custom_title=Sani%20Shil%27s%20Contribution%20Graph" width="100%"/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 🌱 &nbsp;Currently
+
+- 🔭 Building & improving REST APIs with **Spring Boot** and **Laravel**
+- ⚡ Optimising performance with **Redis** caching
+- 📚 Deep-diving into **Backend Engineering & System Design**
+- 🤝 Open to collaborating on backend projects
+
+## 📫 &nbsp;Connect With Me
+
+<div align="center">
+
+<a href="https://github.com/sanishil"><img src="https://img.shields.io/badge/GitHub-sanishil-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://linkedin.com/in/sanishil"><img src="https://img.shields.io/badge/LinkedIn-sanishil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://sanishil.site.je"><img src="https://img.shields.io/badge/Portfolio-sanishil.site.je-00F5A0?style=for-the-badge&logo=google-chrome&logoColor=black"/></a>
 
 <br/><br/>
 
-💬 *Open to collaboration on backend projects and APIs.*
-
 ### 💻 Code • Build • Learn • Repeat 🚀
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6DB33F,100:1a1b27&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=footer" width="100%"/>
 
 </div>
