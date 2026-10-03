@@ -67,30 +67,6 @@ mood:    Code • Build • Learn • Repeat
 <tr><td>Auth &amp; authorization</td><td>Authentication</td><td>Reducing DB load</td><td>Query &amp; schema design</td><td>HttpClient &amp; API integration</td><td>Database connectivity</td></tr>
 </table>
 
-## `~/architecture`
-
-<sub>How each stack in my toolbox flows, end to end.</sub>
-
-### ☕ Spring Boot
-
-<img src="./assets/architecture/spring-boot.svg" alt="Spring Boot architecture" width="100%"/>
-
-### 🐘 Laravel
-
-<img src="./assets/architecture/laravel.svg" alt="Laravel architecture" width="100%"/>
-
-### 🅰️ Angular
-
-<img src="./assets/architecture/angular.svg" alt="Angular architecture" width="100%"/>
-
-### 🐘 PHP
-
-<img src="./assets/architecture/php.svg" alt="PHP architecture" width="100%"/>
-
-### 🐍 Python
-
-<img src="./assets/architecture/python.svg" alt="Python architecture" width="100%"/>
-
 ## `~/stats`
 
 <div align="center">
