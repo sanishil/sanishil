@@ -54,15 +54,17 @@ mood:    Code • Build • Learn • Repeat
 
 <table width="100%">
 <tr>
-<th width="25%" align="left">☕ Spring Boot <i>(primary)</i></th>
-<th width="25%" align="left">🐘 Laravel</th>
-<th width="25%" align="left">⚡ Redis</th>
-<th width="25%" align="left">🗄️ MySQL</th>
+<th width="17%" align="left">☕ Spring Boot <i>(primary)</i></th>
+<th width="17%" align="left">🐘 Laravel</th>
+<th width="17%" align="left">⚡ Redis</th>
+<th width="17%" align="left">🗄️ MySQL</th>
+<th width="16%" align="left">🅰️ Angular</th>
+<th width="16%" align="left">🐍 Python</th>
 </tr>
-<tr><td>REST APIs</td><td>REST APIs</td><td>Caching</td><td>Persistence</td></tr>
-<tr><td>Spring Data JPA</td><td>MVC + Eloquent</td><td>Session storage</td><td>Spring integration</td></tr>
-<tr><td>Validation &amp; exceptions</td><td>Middleware</td><td>Key-value access</td><td>Laravel integration</td></tr>
-<tr><td>Auth &amp; authorization</td><td>Authentication</td><td>Reducing DB load</td><td>Query &amp; schema design</td></tr>
+<tr><td>REST APIs</td><td>REST APIs</td><td>Caching</td><td>Persistence</td><td>Components &amp; modules</td><td>Scripting &amp; automation</td></tr>
+<tr><td>Spring Data JPA</td><td>MVC + Eloquent</td><td>Session storage</td><td>Spring integration</td><td>Services &amp; DI</td><td>REST API consumption</td></tr>
+<tr><td>Validation &amp; exceptions</td><td>Middleware</td><td>Key-value access</td><td>Laravel integration</td><td>Routing &amp; guards</td><td>Data handling</td></tr>
+<tr><td>Auth &amp; authorization</td><td>Authentication</td><td>Reducing DB load</td><td>Query &amp; schema design</td><td>HttpClient &amp; API integration</td><td>Database connectivity</td></tr>
 </table>
 
 ## `~/architecture`
